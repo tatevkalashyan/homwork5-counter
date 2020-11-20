@@ -1,0 +1,7 @@
+.counter {
+    display: flex;
+    width: 1000%;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
