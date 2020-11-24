@@ -1,0 +1,41 @@
+.counter {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #ccc;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+button[:disabled] {
+    opacity: ;
+}
+.counter button{
+    margin: 0 10px;
+    min-width: 50px;
+    height: 25px;
+    background-color: #8BC34A;;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+.number {
+    font-size: 40px;
+    color: rgb(64 119 0);
+    min-width: 100px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.counter button.disabled{
+     visibility: hidden;
+  }

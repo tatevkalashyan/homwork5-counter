@@ -1,0 +1,35 @@
+.counter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+    background-color: #ccc;
+}
+.counter button{
+    margin: 0 10px;
+    width: 50px;
+    height: 25px;
+    background-color: #8BC34A;;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+}
+.number {
+    font-size: 40px;
+    color: rgb(64 119 0);
+    min-width: 100px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.counter button.disabled{
+    visibility: hidden;
+    opacity: 0;
+  }
+  .counter button.disabled:
